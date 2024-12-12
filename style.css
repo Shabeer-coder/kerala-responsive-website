@@ -105,18 +105,7 @@ header IMG{
     border-radius: 50px;
 }
 
-@media (max-width: 768px) {
-    #overlay h1 {
-        font-size: 2rem; 
-    }
-    #overlay p {
-        font-size: 1rem; 
-    }
-    .overlay-header .nav {
-        flex-direction: column; 
-        gap: 10px;
-    }
-}
+
 
 
 .image-container {
@@ -283,47 +272,6 @@ section h3 {
 }
 
 
-@media (max-width: 992px) {
-    .row>.col-md-4 {
-        flex: 1 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
-
-    .card-img-top {
-        height: 200px;
-    }
-}
-
-#Destinations {
-    background-color: #f0f8ff;
-}
-
-#About\ Kerala {
-    background-color: #e8f5e9;
-}
-
-@media (max-width: 576px) {
-
-    .row>.col-md-4,
-    .row>.col-sm-6 {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-
-    .card-img-top {
-        height: 150px;
-    }
-
-    section h3 {
-        font-size: 1.5rem;
-    }
-
-
-    .btn-primary {
-        padding: 10px 20px;
-        font-size: 0.9rem;
-    }
-}
 
 
 
@@ -409,23 +357,7 @@ body {
     color: #666;
 }
 
-@media (min-width: 1200px) {
-    #Plan-Your-Trip .row {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    #Plan-Your-Trip .row {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    #Plan-Your-Trip .row {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
 
 .contact-us-section {
@@ -552,4 +484,87 @@ button:hover {
 
 .footer-link:hover {
     text-decoration: underline;
+}
+@media (min-width: 1200px) {
+    #Plan-Your-Trip .row {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #Plan-Your-Trip .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    #Plan-Your-Trip .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 992px) {
+    .row>.col-md-4 {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+#Destinations {
+    background-color: #f0f8ff;
+}
+
+#About\ Kerala {
+    background-color: #e8f5e9;
+}
+
+@media (max-width: 576px) {
+
+    .row>.col-md-4,
+    .row>.col-sm-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #overlay h1 {
+        font-size: 2rem; 
+    }
+    #overlay p {
+        font-size: 1rem; 
+    }
+    .overlay-header .nav {
+        flex-direction: column; 
+        gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #overlay h1 {
+        font-size: 2rem; 
+    }
+    #overlay p {
+        font-size: 1rem; 
+    }
+    .overlay-header .nav {
+        flex-direction: column; 
+        gap: 10px;
+    }
 }
